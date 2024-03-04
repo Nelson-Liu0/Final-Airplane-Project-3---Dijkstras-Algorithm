@@ -1,0 +1,28 @@
+digraph Airports {
+     London -> NewYork [label="8.25"]
+     NewYork -> SanFrancisco [label="6.62"]
+     SanFrancisco -> Delhi [label="16.00"]
+     Delhi -> Rome [label="8.33"]
+     Rome -> Paris [label="1.88"]
+     Paris -> Tokyo [label="12.85"]
+     Tokyo -> Beijing [label="4.18"]
+     Beijing -> Dubai [label="8.75"]
+     Dubai -> London [label="8.00"]
+     NewYork -> Rome [label="8.40"]
+     Rome -> NewYork [label="9.50"]
+     Tokyo -> Paris [label="14.33"]
+     Paris -> Rome [label="2.00"]
+     London -> Dubai [label="7.00"]
+     Rome -> Delhi [label="7.08"]
+     Delhi -> Beijing [label="5.75"]
+     Beijing -> London [label="11.00"]
+     Beijing -> Paris [label="11.25"]
+     Tokyo -> SanFrancisco [label="9.33"]
+     Toronto -> Delhi [label="14.58"]
+     Toronto -> Dubai [label="12.92"]
+     NewYork -> Toronto [label="1.67"]
+
+     NewYork [label = "New York"]
+     SanFrancisco [label = "San Francisco"]
+
+}
